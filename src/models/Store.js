@@ -3,11 +3,7 @@ import {action, decorate, observable} from "mobx";
 class Store {
     root = {
         type: 'container',
-        items: [
-            {
-                type: 'box'
-            }
-        ]
+        items: []
     };
 
     addBox(item) {
